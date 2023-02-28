@@ -1,0 +1,8 @@
+{name}
+{item.name}
+{item['name']}
+{global:colors}
+{item.getLabels(1)} 
+{item.getLabels(1, 2, 3, 4)} 
+{data:item.name} 
+{name or 'John'} 

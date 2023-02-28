@@ -1,0 +1,16 @@
+{#if item.name is 'sword'}
+  It's a sword! 
+{#else if item.name is 'shield'}
+  It's a shield! 
+{#else}
+  Item is neither a sword nor a shield. 
+{/if}
+
+{#each items}
+  {it.name} 
+{/each}
+
+{#for item in items} 
+  {item.name}
+{/for}
+
